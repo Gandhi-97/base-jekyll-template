@@ -9,6 +9,7 @@ newsletter_action:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /assets/images/kb.png
 description: A KnowledgeBase Project.
+image: /assets/images/kb.png
 author:
   name: JiJi Technologies
   email: contact@jijitechnologies.com
@@ -29,7 +30,7 @@ permalink: /:categories/:title/
 plugins:
   - jekyll-extract-element
   - jekyll-sitemap
-  - jekyll-seo-tag
+  # - jekyll-seo-tag
   - jekyll-feed
   - jekyll-archives
 

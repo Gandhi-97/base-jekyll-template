@@ -1,3 +1,6 @@
+---
+---
+
 jQuery(function() {
 	var $sidebar = $('.sidebar'),
 		$content = $('.content'),
