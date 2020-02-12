@@ -1,29 +1,28 @@
-# ----
-# Site
-
-title: Base
-url: "https://orange-ape.cloudvent.net/"
-baseurl:
+title: Knowledgebase
+# url: "https://orange-ape.cloudvent.net/"
+# baseurl:
+port: 4210
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Knowledge base template for Jekyll.
+logo: /assets/images/kb.png
+description: A KnowledgeBase Project.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
-social:
-  name: Base Template
-  links:
-    - https://github.com/CloudCannon/base-jekyll-template
+  name: JiJi Technologies
+  email: contact@jijitechnologies.com
+  twitter: jijitech # twitter username without the @ symbol
+# social:
+#   name: Base Template
+#   links:
+#     - https://github.com/CloudCannon/base-jekyll-template
 
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: "America/Vancouver"
+date_format: "%B %-d, %Y"
 
 permalink: /:categories/:title/
 
@@ -70,20 +69,12 @@ defaults:
     values:
       body_class: "show_hero_search"
 
-# -----------
-# CloudCannon
-
 social_icons:
   - Facebook
-  - Google Plus
-  - Instagram
   - LinkedIn
-  - Pinterest
-  - Tumblr
   - Twitter
   - YouTube
   - Email
-  - RSS
 
 types:
   - Document
