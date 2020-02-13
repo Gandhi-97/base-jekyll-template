@@ -3,6 +3,7 @@ title: apps4pro-planner-manager-ce-features-available-in-pm-extension
 categories:
   - Apps4.Pro Planner Manager
 description: Jekyll template for digital agencies
+image: /assets/images/kb.png
 sub: Desktop app
 type: Document
 tags: [chrome Extension]
