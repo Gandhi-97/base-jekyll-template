@@ -10,6 +10,8 @@ newsletter_action:
 logo: /assets/images/kb.png
 description: A KnowledgeBase Project.
 image: /assets/images/kb.png
+keywords: Test1,test2,test3
+image: /assets/images/kb.png
 author:
   name: JiJi Technologies
   email: contact@jijitechnologies.com
@@ -17,6 +19,16 @@ author:
 twitter:
   card: "summary"
   username: "jijitech"
+facebook:
+  app_id: 123456789
+  publisher: 123456789   
+  admins: 123456789
+social:
+  name: JiJi Technologies
+  links:
+    - https://twitter.com/jijitech
+    - https://www.instagram/jijitech
+    - https://www.facebook.com/jijitech
 # social:
 #   name: Base Template
 #   links:
