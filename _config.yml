@@ -9,12 +9,11 @@ newsletter_action:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /assets/images/kb.png
 description: A KnowledgeBase Project.
+keywords: Test1,test2,test3
 image:
   path: /assets/images/kb.png
   height: 100
   width: 100
-keywords: Test1,test2,test3
-image: /assets/images/kb.png
 author:
   name: JiJi Technologies
   email: contact@jijitechnologies.com
@@ -23,13 +22,13 @@ twitter:
   card: "summary"
   username: "jijitech"
 facebook:
-  app_id: 123456789
-  publisher: 123456789   
-  admins: 123456789
+  app_id: 987654321
+  publisher: 987654321   
+  admins: 987654321
 social:
   name: JiJi Technologies
   links:
-    - https://twitter.com/jijitech
+    - https://twitter.com/jijitecg
     - https://www.instagram/jijitech
     - https://www.facebook.com/jijitech
 # social:
@@ -70,7 +69,7 @@ defaults:
       path: ""
     values:
       layout: "default"
-      image: /assets/images/kb.png
+      image: "/assets/images/kb.png"
   -
     scope:
       type: "posts"
