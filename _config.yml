@@ -9,7 +9,10 @@ newsletter_action:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /assets/images/kb.png
 description: A KnowledgeBase Project.
-image: /assets/images/kb.png
+image:
+  path: /assets/images/kb.png
+  height: 100
+  width: 100
 keywords: Test1,test2,test3
 image: /assets/images/kb.png
 author:
