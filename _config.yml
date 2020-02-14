@@ -14,6 +14,9 @@ author:
   name: JiJi Technologies
   email: contact@jijitechnologies.com
   twitter: jijitech # twitter username without the @ symbol
+twitter:
+  card: "summary"
+  username: "jijitech"
 # social:
 #   name: Base Template
 #   links:
@@ -21,7 +24,6 @@ author:
 
 # -----
 # Build
-
 timezone: "America/Vancouver"
 date_format: "%B %-d, %Y"
 
