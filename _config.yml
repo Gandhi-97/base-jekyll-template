@@ -25,7 +25,7 @@ author:
 timezone: "America/Vancouver"
 date_format: "%B %-d, %Y"
 
-permalink: /:categories/:title/
+permalink: /:categories/:title
 
 plugins:
   - jekyll-extract-element
