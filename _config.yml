@@ -3,7 +3,7 @@ url: "https://gandhi-97.github.io/base-jekyll-template"
 baseurl:
 port: 4210
 google_analytics_key:
-disqus_shortname:
+disqus_shortname: jijitechnologiesblog.disqus.com
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
