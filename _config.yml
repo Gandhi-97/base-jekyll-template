@@ -31,13 +31,7 @@ social:
     - https://twitter.com/jijitech
     - https://www.instagram/jijitech
     - https://www.facebook.com/jijitech
-# social:
-#   name: Base Template
-#   links:
-#     - https://github.com/CloudCannon/base-jekyll-template
 
-# -----
-# Build
 timezone: "America/Vancouver"
 date_format: "%B %-d, %Y"
 
@@ -62,6 +56,7 @@ collections:
 
 jekyll-archives:
   enabled: ['categories']
+  layout: archive
 
 defaults:
   -
