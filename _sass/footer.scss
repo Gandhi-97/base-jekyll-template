@@ -13,6 +13,9 @@ footer {
 		margin: 0;
 		text-align: center;
 		font-size: .9em;
+		&:hover{
+text-decoration: none;
+		}
 	}
 
 	a {

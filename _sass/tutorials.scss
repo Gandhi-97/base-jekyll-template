@@ -16,7 +16,8 @@
 	h3 {
 		font-size: 2.2rem;
 		margin-bottom: 20px;
-		text-decoration: underline
+		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 2.5rem;
 	}
 }
 
@@ -27,11 +28,10 @@
 	white-space: nowrap;
 	padding:5px;
 	border-radius:3px;
-	background-color:lavender;
-	box-shadow: 0 6px 6px -6px rgba(0, 0, 0, .2);
+	background-color:inherit;
 	h3 {
 		text-transform:capitalize;
-		text-align: center;
+		// text-align: center;
 	}
 
 	@media #{$mid-point} {
@@ -51,6 +51,7 @@
 
 	li {
 		margin-right: 15px;
+		padding-left:3%;
 		a {
 			padding: 2px 0;
 			font-size: 1.1em;
@@ -81,9 +82,11 @@
 			}
 		}
 	}
-	li:last-child a{
+	li:last-child {
+		padding-left:0;
+		a{
 		border-bottom: none;
-	}
+	}}
 }
 
 .tutorial {
@@ -145,9 +148,10 @@ margin: 0 5%
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	padding-left:2.5%;
 	// display: flex;
 	// flex-flow: wrap;
-
+   
 	li {
 		margin: 10px 0;
 		padding: 0;
@@ -323,13 +327,12 @@ margin: 0 5%
 }
 
 .related, .tutorial-series {
-	margin: 50px 0;
-	padding: 20px 0;
-
+	margin: 3% 5%;
 	ul {
 		padding: 0;
 		margin: 0;
 		list-style: none;
+		padding-left: 2.5%;
 	}
 }
 
@@ -459,3 +462,9 @@ text-decoration: none
 	margin-top: -25px;
   }
   
+.share{
+    top: 10px;
+    float: right;
+    position: absolute;
+	right: 0;
+}
