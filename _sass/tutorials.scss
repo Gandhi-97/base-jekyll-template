@@ -213,6 +213,15 @@ margin: 0 5%
 		}
 	}
 }
+.listing li :hover{
+		h3{
+			color:$link-hover-color;
+			font-weight: 600;
+		}
+		p{
+			font-weight: 600;
+		}
+}
 
 .tutorial-share {
 
