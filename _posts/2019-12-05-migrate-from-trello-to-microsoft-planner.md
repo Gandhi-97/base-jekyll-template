@@ -32,6 +32,6 @@ You can migrate following Card details from Trello to Microsoft Planner tasks
 + Description
 
 For more details visit [https://apps4.pro/migrate-from-trello-to-microsoft-planner.aspx](https://apps4.pro/migrate-from-trello-to-microsoft-planner.aspx)
-![import-trello-new-group](/assets/images/secondBlog/import-trello-new-group.png)
+![import-trello-new-group]..(/assets/images/secondBlog/import-trello-new-group.png)
 
 
