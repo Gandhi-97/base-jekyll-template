@@ -61,7 +61,6 @@ layout: null
 	function displaySearchResults(results, query) {
 		var searchResultsEl = document.getElementById("search-results"),
 			searchProcessEl = document.getElementById("search-process");
-
 		if (results.length) {
 			var resultsHTML = "";
 			results.forEach(function (result) {
@@ -80,6 +79,19 @@ layout: null
 		}
 	}
 
+	function showAutocomplete(results,query,a){
+		if (results.length) {
+			var resultsHTML = "";
+			results.forEach(function (result) {
+				var item = window.data[result.ref],
+					contentPreview = getPreview(query, item.content, 170),
+					titlePreview = getPreview(query, item.title);
+				resultsHTML += "<div><a href="+item.url.trim()+">"+item.title+"</a></div>";
+			});
+			a.innerHTML = resultsHTML;
+		}
+	}
+
 	window.index = lunr(function () {
 		this.field("id");
 		this.field("title", {boost: 10});
@@ -87,7 +99,9 @@ layout: null
 		this.field("url");
 		this.field("content");
 	});
-
+function openUrl(url){
+	window.location=url;
+}
 	var query = decodeURIComponent((getQueryVariable("q") || "").replace(/\+/g, "%20")),
 		searchQueryContainerEl = document.getElementById("search-query-container"),
 		searchQueryEl = document.getElementById("search-query");
@@ -99,5 +113,17 @@ layout: null
 		window.index.add(window.data[key]);
 	}
 
+	function onSearch(inp){
+		console.log("test1")
+		inp.addEventListener("input", function (e) {
+			var a = this.value;
+			a = document.createElement("DIV");
+			a.setAttribute("id",  "autocomplete-list");
+			a.setAttribute("class", "autocomplete-items");
+			this.parentNode.appendChild(a);
+		showAutocomplete(window.index.search(query), query,a); //Show autocomplete			
+		});
+	}
+		onSearch(document.getElementById("search-input"));
 	displaySearchResults(window.index.search(query), query); // Hand the results off to be displayed
 })();

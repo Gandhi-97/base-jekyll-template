@@ -36,7 +36,7 @@ timezone: "America/Vancouver"
 date_format: "%B %-d, %Y"
 link-tags: true
 
-permalink: /:title
+permalink: /:categories/:title
 
 plugins:
   - jekyll-extract-element
